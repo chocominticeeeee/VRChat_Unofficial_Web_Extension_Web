@@ -5,7 +5,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: './',
+  base: '/VRChat_Unofficial_Web_Extension_Web/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
