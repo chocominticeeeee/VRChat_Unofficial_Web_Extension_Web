@@ -45,6 +45,31 @@ export default function Home() {
             <h1 className="text-[1.8rem] font-bold mb-2">VRChat 非公式Web拡張</h1>
             <p className="text-[#8b8fa8] mb-8">VRChat公式サイトをもっと使いやすく</p>
 
+            <section className="bg-[#1a2035] border border-[#3a4a7a] rounded-[10px] p-5 mt-5">
+                <h2 className="text-lg mb-3 text-[#7a9fff] flex items-center gap-2">
+                    <span>📢</span> お知らせ
+                </h2>
+                <ul className="space-y-2 text-[#e8eaf0]">
+                    <li className="flex gap-2 text-sm leading-6">
+                        <span className="text-[#8b8fa8] shrink-0">2026/04/19</span>
+                        <span>
+                            バージョン <strong className="text-[#7a9fff]">1.2.0</strong> をChrome
+                            ウェブストアに申請し、現在審査待ちです。 <br />
+                            審査が完了してストアに公開されたら
+                            <a
+                                href="https://x.com/Choccomintice"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-[#7a9fff] underline"
+                            >
+                                X（Twitter）
+                            </a>
+                            でアナウンスしますので今しばらくお待ちください。
+                        </span>
+                    </li>
+                </ul>
+            </section>
+
             <section className={card}>
                 <h2 className="text-lg mb-3 text-[#6c8fff]">概要</h2>
                 <p className="leading-7 text-[#e8eaf0]">
