@@ -53,18 +53,8 @@ export default function Home() {
                     <li className="flex gap-2 text-sm leading-6">
                         <span className="text-[#8b8fa8] shrink-0">2026/04/19</span>
                         <span>
-                            バージョン <strong className="text-[#7a9fff]">1.2.0</strong> をChrome
-                            ウェブストアに申請し、現在審査待ちです。 <br />
-                            審査が完了してストアに公開されたら
-                            <a
-                                href="https://x.com/Choccomintice"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="text-[#7a9fff] underline"
-                            >
-                                X（Twitter）
-                            </a>
-                            でアナウンスしますので今しばらくお待ちください。
+                            バージョン <strong className="text-[#7a9fff]">1.2.0</strong> がchrome ストアに公開されました✨<br />
+                            (ストアのアプリ画像変えるの忘れていてそこだけ再申請中です...ﾎﾟﾍ)
                         </span>
                     </li>
                 </ul>
