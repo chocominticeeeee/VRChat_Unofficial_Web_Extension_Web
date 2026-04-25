@@ -6,7 +6,9 @@
       "Bash(bun add *)",
       "Bash(bun run *)",
       "Bash(git -C i:/CreativeProjects/CursorProjects/chrome-Extensions/VRChat_Unofficial_Web_Extension_Web remote -v)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(git --version)",
+      "Bash(where git *)"
     ]
   }
 }
