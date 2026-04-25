@@ -14,6 +14,19 @@ const screenshots = [
 
 const card = "bg-[#1a1d27] border border-[#2a2d3a] rounded-[10px] p-6 mt-5";
 
+const notices = [
+    {
+        date: "2026/04/26",
+        ver: "1.2.0",
+        details: <span>公式サイトの更新により拡張機能が動作しない問題を確認<br />現在、修正版のバージョン1.2.1をchromeストアに申請中です。</span>,
+    },
+    {
+        date: "2026/04/19",
+        ver: "1.2.0",
+        details: <span>chrome ストアに公開されました✨</span>,
+    },
+];
+
 const features = [
     {
         icon: "🗂️",
@@ -50,13 +63,16 @@ export default function Home() {
                     <span>📢</span> お知らせ
                 </h2>
                 <ul className="space-y-2 text-[#e8eaf0]">
-                    <li className="flex gap-2 text-sm leading-6">
-                        <span className="text-[#8b8fa8] shrink-0">2026/04/19</span>
-                        <span>
-                            バージョン <strong className="text-[#7a9fff]">1.2.0</strong> がchrome ストアに公開されました✨<br />
-                            (ストアのアプリ画像変えるの忘れていてそこだけ再申請中です...ﾎﾟﾍ)
-                        </span>
-                    </li>
+                    {notices.map((notice, i) => {
+                        return (
+                            <li className="flex gap-2 text-sm leading-6" key={i}>
+                                <span className="text-[#8b8fa8] shrink-0">
+                                    {notice.date} ver{notice.ver}
+                                </span>
+                                <span>{notice.details}</span>
+                            </li>
+                        );
+                    })}
                 </ul>
             </section>
 
