@@ -16,14 +16,19 @@ const card = "bg-[#1a1d27] border border-[#2a2d3a] rounded-[10px] p-6 mt-5";
 
 const notices = [
     {
+        date: "2026/05/08",
+        ver: "1.2.2",
+        details: <span>公式サイトの更新により拡張機能が動作しない問題が発生しにくくなるよう修正 </span>,
+    },
+    {
         date: "2026/04/26",
-        ver: "1.2.0",
-        details: <span>公式サイトの更新により拡張機能が動作しない問題を確認<br />現在、修正版のバージョン1.2.1をchromeストアに申請中です。</span>,
+        ver: "1.2.1",
+        details: <span>公式サイトの更新により拡張機能が動作しない問題を修正</span>,
     },
     {
         date: "2026/04/19",
         ver: "1.2.0",
-        details: <span>chrome ストアに公開されました✨</span>,
+        details: <span>chromeストアに公開</span>,
     },
 ];
 
